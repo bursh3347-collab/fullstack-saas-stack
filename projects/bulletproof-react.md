@@ -5,7 +5,7 @@
 | Metric | Data |
 |------|------|
 | GitHub | [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) |
-| Stars | 34,848 |
+| Stars | 34,849 |
 | Forks | 3,166 |
 | License | MIT |
 | Language | TypeScript |
@@ -71,6 +71,10 @@ src/
 | Auth patterns | Needs adaptation | 2h | code-base/auth/ |
 
 ⭐ **Universal Code Candidates**: Feature-based folder structure, Error boundaries, API layer patterns
+
+## 天子点评
+
+不是boilerplate，是React架构圣经。Feature-based文件夹结构是我所有项目的标准参考——按功能模块而非技术层划分代码，一人公司维护起来效率翻倍。不提供可运行代码是遗憾，但架构决策的指导价值远超任何starter template。每个新项目开始前必读一遍。
 
 ## Risks / Why It Might Not Be Worth It
 

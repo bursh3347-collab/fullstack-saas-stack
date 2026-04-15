@@ -5,12 +5,12 @@
 | Metric | Data |
 |------|------|
 | GitHub | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) |
-| Stars | 42,647 |
-| Forks | 8,384 |
+| Stars | 42,652 |
+| Forks | 8,385 |
 | License | MIT |
 | Language | TypeScript + Python |
 | Last Updated | 2026-04-15 |
-| Open Issues | 24 |
+| Open Issues | 25 |
 | Contributors | 100+ |
 
 ## TEMC Scores
@@ -18,7 +18,7 @@
 | Dimension | Score | Reasoning |
 |------|------|------|
 | T (Tech) | 88 | Production-grade architecture: FastAPI+SQLModel backend, React+TypeScript frontend, Docker Compose, Traefik reverse proxy, automatic HTTPS, GitHub Actions CI/CD. Excellent code quality and documentation. |
-| E (Ecosystem) | 90 | 42.6k stars, official FastAPI project by Sebastián Ramírez (tiangolo). Massive community, 8.3k forks. Active maintenance by FastAPI core team. |
+| E (Ecosystem) | 90 | 42.7k stars, official FastAPI project by Sebastián Ramírez (tiangolo). Massive community, 8.4k forks. Active maintenance by FastAPI core team. |
 | M (Market) | 75 | Python-first full-stack template. Strong for Python developers but TypeScript-first SaaS market prefers Next.js. Great for API-heavy products. |
 | C (Combo) | 72 | Python backend diverges from base tech stack (TS+Next.js). However, FastAPI patterns are excellent reference for API design. Docker setup is reusable. |
 | **Overall** | **80.3** | T×0.25 + E×0.20 + M×0.30 + C×0.25 |
@@ -76,6 +76,10 @@ full-stack-fastapi-template/
 - **Target Users**: Python developers building APIs, data-heavy applications, ML-powered products
 - **TAM**: Large — Python web dev market
 - **Differentiation Window**: The only official FastAPI template; competitors (cookiecutter-django, etc.) are less modern
+
+## 天子点评
+
+Python全栈的黄金标准，42k Stars实至名归。对我来说核心价值不在直接使用（我的主栈是TS），而在三个可提取模式：①Docker Compose多服务编排 ②OpenAPI自动生成TypeScript客户端（消除前后端类型漂移）③JWT认证流程的安全默认配置。如果做Python后端项目会是第一选择。
 
 ## Risks / Why It Might Not Be Worth It
 

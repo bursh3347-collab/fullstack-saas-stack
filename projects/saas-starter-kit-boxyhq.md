@@ -65,6 +65,10 @@ saas-starter-kit/
 
 ⭐ **Universal Code Candidates**: Audit log pattern, Webhook system, Team management
 
+## 天子点评
+
+企业级SaaS的必备参考——SSO/SCIM/Audit Log这三样是向企业客户收费的核心功能。但对早期Micro SaaS来说太重了，4.8k Stars也说明不是大众选择。建议策略：先用ixartz快速上线，等有企业客户需求时再来这里抄SSO和Audit Log模块。注意它用的是Pages Router（旧架构），需要迁移到App Router。
+
 ## Risks / Why It Might Not Be Worth It
 
 - BoxyHQ dependency for SSO — adds vendor lock-in for enterprise features

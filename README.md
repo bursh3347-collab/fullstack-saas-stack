@@ -1,6 +1,9 @@
 # 🏗️ fullstack-saas-stack
 
-> ⭐ Maturity: L1 Growing
+[![Stars](https://img.shields.io/github/stars/bursh3347-collab/fullstack-saas-stack?style=social)](https://github.com/bursh3347-collab/fullstack-saas-stack)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> ⭐ **Maturity: L1 Growing** — 5 projects analyzed with TEMC scores, 2 best-practice guides, horizontal comparison.
 
 Extracted best practices and analysis from top full-stack SaaS boilerplate projects on GitHub. Part of the [Open Source Knowledge Restructuring Project](https://github.com/bursh3347-collab).
 
@@ -16,36 +19,40 @@ Full-stack SaaS boilerplates provide the foundation for building Software-as-a-S
 |------|---------|-------|------|----------|
 | 1 | [ixartz/SaaS-Boilerplate](projects/saas-boilerplate-ixartz.md) | 7.0k | **84.9** | 🏆 Best stack match |
 | 2 | [alan2207/bulletproof-react](projects/bulletproof-react.md) | 34.8k | **82.4** | Architecture guide |
-| 3 | [fastapi/full-stack-fastapi-template](projects/full-stack-fastapi-template.md) | 42.6k | **80.3** | Python full-stack |
+| 3 | [fastapi/full-stack-fastapi-template](projects/full-stack-fastapi-template.md) | 42.7k | **80.3** | Python full-stack |
 | 4 | [wasp-lang/open-saas](projects/open-saas.md) | 14.1k | **79.6** | Free all-in-one |
 | 5 | [boxyhq/saas-starter-kit](projects/saas-starter-kit-boxyhq.md) | 4.8k | **78.4** | Enterprise SSO |
 
-## 📈 Trending (Weekly Stars Δ)
+## 📈 本分类飙升榜（最近更新：2026-04-15）
 
-| Project | Total | Weekly Δ | Trend |
-|---------|-------|----------|-------|
-| FastAPI Full-Stack | 42.6k | ~200 | → |
-| Bulletproof React | 34.8k | ~150 | → |
-| Open SaaS | 14.1k | ~100 | ↑ |
-| ixartz SaaS | 7.0k | ~80 | ↑ |
-| BoxyHQ | 4.8k | ~30 | → |
+| 排名 | 项目 | 总Stars | 周增 | 趋势 |
+|------|------|---------|------|------|
+| 1 | [FastAPI Full-Stack](projects/full-stack-fastapi-template.md) | 42.7k | ~80 | → Stable |
+| 2 | [Bulletproof React](projects/bulletproof-react.md) | 34.8k | ~60 | → |
+| 3 | [Open SaaS](projects/open-saas.md) | 14.1k | ~100 | ↑ Growing |
+| 4 | [ixartz SaaS](projects/saas-boilerplate-ixartz.md) | 7.0k | ~50 | ↑ |
+| 5 | [BoxyHQ](projects/saas-starter-kit-boxyhq.md) | 4.8k | ~20 | → |
+
+> 📊 Stars data verified via GitHub API on 2026-04-15. Weekly increase (周增) is estimated based on growth trajectory.
 
 ## 📂 Repository Structure
 
 ```
 fullstack-saas-stack/
 ├── projects/                 # Individual project analyses (TEMC format)
-│   ├── full-stack-fastapi-template.md
-│   ├── open-saas.md
 │   ├── saas-boilerplate-ixartz.md
 │   ├── bulletproof-react.md
+│   ├── full-stack-fastapi-template.md
+│   ├── open-saas.md
 │   └── saas-starter-kit-boxyhq.md
 ├── best-practices/           # Cross-project pattern extraction
 │   ├── architecture.md       # Full-stack SaaS architecture patterns
 │   └── auth-patterns.md      # Authentication comparison
 ├── code/                     # Extracted code (future)
 ├── comparison.md             # Horizontal comparison table
+├── roadmap.md                # Category trends and future directions
 ├── SOURCES.md                # All source projects
+├── CONTRIBUTING.md           # How to contribute
 └── README.md                 # This file
 ```
 
@@ -67,6 +74,18 @@ Modules identified for extraction to [code-base](https://github.com/bursh3347-co
 - Audit log system (from BoxyHQ)
 - JWT auth flow (from FastAPI)
 
+## 🔗 Related Repositories
+
+| Category | Repository | Maturity |
+|----------|------------|----------|
+| 🤖 AI Agent | [ai-agent-stack](https://github.com/bursh3347-collab/ai-agent-stack) | L2 Growing |
+| 🏗️ Full-Stack SaaS | **fullstack-saas-stack** (this) | **L1 Growing** |
+| 🔧 Code Base | [code-base](https://github.com/bursh3347-collab/code-base) | L1 Scaffolded |
+
 ## License
 
-Analysis content: MIT. Individual projects retain their original licenses.
+Analysis content: MIT. Individual projects retain their original licenses (see SOURCES.md).
+
+---
+
+*Powered by [天工系统](https://github.com/bursh3347-collab) — AI-driven open source intelligence engine*

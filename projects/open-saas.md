@@ -5,8 +5,8 @@
 | Metric | Data |
 |------|------|
 | GitHub | [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) |
-| Stars | 14,101 |
-| Forks | 1,651 |
+| Stars | 14,102 |
+| Forks | 1,652 |
 | License | MIT |
 | Language | TypeScript |
 | Last Updated | 2026-04-15 |
@@ -53,6 +53,10 @@ Built on Wasp's declarative DSL that compiles to React + Node.js:
 | Stripe integration patterns | Needs rewrite (Wasp-specific) | 4h | Reference only |
 | Auth flow architecture | Reference only (Wasp DSL) | — | Patterns reference |
 | Background job patterns | Reference only | — | Patterns reference |
+
+## 天子点评
+
+功能最全的免费SaaS模板，没有之一——Auth/Stripe/邮件/后台任务/Landing Page全都有。但Wasp框架锁定是致命伤：你的代码和Wasp绑死，无法抽取模块到非Wasp项目。建议只作为"功能清单参考"和"Landing Page设计参考"，不建议直接基于它构建产品。选ixartz或自己从头搭。
 
 ## Risks / Why It Might Not Be Worth It
 
